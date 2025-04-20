@@ -1,0 +1,483 @@
+@eggplant #483248;
+@newBlue: #31c9cc;
+@white: #ffffff;
+@january: #ebf1fc;
+@black: #000000;
+@darkGray: #4f4f4f;
+@athensGrey: #d2e0df;
+@neonBlue: #1c3dff;
+@nobel: #9f9f9f;
+@roofTerracotta: #a94442;
+@fireEngineRed: #cd2026;
+@astral: #3379a9;
+@silver: #c6c6c6;
+@gray120: #333333;
+@green50: #26ad45;
+@azure: #ecf7f6;
+@dimGray: #727272;
+@thistle: #c9d3d2;
+@paleCyan: #edf7f6;
+@whiteSmoke: #f6f6f6;
+@whisper: #e8e8e8;
+@neogray: #9d9ea1;
+@darkgray: #919191;
+@lightcoral: #e37679;
+@saturatedred: #ff0000;
+@blue-magenta: #0202ea;
+@lynx: #f7f7f7;
+@midnightBlue: #000050;
+@brightGrey: #e8e8e8;
+@error-msg: #d83d40;
+@gray: #dddddd;
+@gray05: #dfdfdf;
+@gray10: #f7f7f7;
+@gray20: #e3e3e3;
+@gray30: #cdd0d1;
+@gray40: #b8b8ba;
+@gray50: #9fa1a2;
+@gray60: #8C8C8F;
+@gray70: #626366;
+@gray90: #4a4a4d;
+@darkGray : #444548;
+@blue10: #7493fb;
+@deepBlue10: #6b6eb3;
+@deepBlue30: #3d3e97;
+@grayBlue30:#6b6eb3;
+@deepBlue50:#000073;
+@teal: #31c2c4;
+@teal5: #E3F7F9;
+@teal70: #207e99;
+@teal90:#156984;
+@coral70: #EC585B;
+@blue30:#295AFB;
+@gold70:#826c4b;
+@stars-color: #ffc74f;
+@floralWhite: #f8f7f4;
+@ghostWhite: #f9f9ff;
+@lightSalmonRed : #FFD6D6;
+@faux-bright-gray : #edeef1;
+@gray12: #bbb;
+@gray100: #343437;
+@gray101: #d8d8de;
+@gray45: #D9D9D9;
+@lightgray:#7e7e81;
+@gray50:#9FA1A2;
+@gray65:#7E7E81;
+
+@yellow-10: #ffd682;
+@yellow-30: #ffc74f;
+@yellow-50: #ffab21;
+@yellow-70: #f58d00;
+@yellow-90: #d76a00;
+
+@coral-10: #ffd6d6;
+@coral-30: #ffbabd;
+@coral-50: #ff7276;
+@coral-70: #ec585b;
+@coral-90: #d83d40;
+@coral-96: #CD292C;
+
+@teal-01: lighten(@teal-50, 51%); // #f3fcfc
+@teal-03: lighten(@teal-50, 49%); // #eaf9fb
+@teal-05: lighten(@teal-10, 5%); // #d3fbff
+@teal-1: #EBF1FC;
+@teal-10: #b9f9ff;
+@teal-30: #74d9e2;
+@teal-50: #29b6c2;
+@teal-70: #207e99;
+@teal-90: #156984;
+@teal-60: #1882a8;
+
+// Neutrals
+@white: #fff;
+@gray-10: lighten(@gray-50, 45%); // #f3f3f3
+@gray-20: lighten(@gray-50, 40%); // #e6e6e6
+@gray-30: lighten(@gray-50, 30%); // #cdcdcd
+@gray-40: lighten(@gray-50, 20%); // #b3b3b3
+@gray-50: #808080;
+@gray-60: darken(@gray-50, 10%); // #676767
+@gray-70: darken(@gray-50, 20%); // #4d4d4d
+@gray-80: darken(@gray-50, 30%); // #343434
+@gray-90: darken(@gray-50, 45%); // #0d0d0d
+@black: #000;
+@lightGray:#e0e0e0;
+
+
+// original colors
+@blue: #0202ea;
+
+// New Blues
+@linear-gradian1: #02024B;
+@linear-gradian2: #020D70;
+@linear-gradian3: #001494;
+@deep-blue-50: #000073;
+@deep-blue-70: #000050;
+
+
+//Different layout
+@xs: 360px;
+@sm: 400px;
+@md: 768px;
+@lg: 992px;
+@xl: 1200px;
+
+// breakpoints
+@tablet-min: 600px;
+@desktop-min: 900px;
+
+
+// Borders
+// ---------------------------------------------------
+
+@border-color-base: @gray-20;
+@border-color-dark: @gray-40;
+@border-color-brand: @brand-primary;
+@border-color-inverse: @brand-inverse;
+
+@border-radius-sm: 0.125rem; // 2px
+@border-radius-md: 0.25rem; // 4px
+@border-radius-lg: 0.5rem; // 8px
+@border-radius-round: 4rem;
+
+@border-base: 1px solid @border-color-base;
+@border-dark: 1px solid @border-color-dark;
+@border-inverse: 1px solid @border-color-inverse;
+@border-brand: 1px solid @border-color-brand;
+
+// Drop Shadows
+// ---------------------------------------------------
+
+@drop-shadow-base: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+@drop-shadow-shallow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+@drop-shadow-deep: 0 3px 8px 0 rgba(0, 0, 0, 0.25);
+@top-shadow-shallow: 0 -2px 4px 0 rgba(0, 0, 0, 0.1);
+
+
+// Typography
+// ---------------------------------------------------
+
+@font-family-primary: 'HgSans', 'Arial', 'Helvetica', sans-serif;
+
+@font-size-lg: (@font-size-base * 1.8); // 18px
+@font-size-md: (@font-size-base * 1.6);
+@font-size-base: 10px; // Assumes the browser default, typically `10px`
+@font-size-small: (@font-size-base * 1.4); // 14px
+@font-size-xs: (@font-size-base * 1.2); // 12px
+@font-size-sm-em: 0.875em;
+
+@font-weight-base: 400;
+@font-weight-medium: 500;
+@font-weight-bold: 700;
+@font-weight-heavy: 900;
+
+@line-height-base: 1.5;
+@line-height-tight: 1.25;
+@line-height-loose: 1.66;
+@line-height-em: unit(@line-height-base, em);
+
+
+// Brand
+@brand-primary: @deep-blue-70;
+@brand-secondary: @teal-30;
+@brand-tertiary: @deep-blue-50;
+@brand-accent: @coral-90;
+@brand-inverse: @white;
+
+@base-gray: @gray-60;
+@transparent-light: rgba(255, 255, 255, 0.2);
+
+// Backgrounds
+@bg-base: @white;
+@bg-off-base: @gray-10;
+@bg-neutral: @gray-20;
+@bg-brand: @brand-primary;
+@bg-accent: @brand-accent;
+@bg-highlight: @teal-03;
+@bg-transparent-light: @transparent-light;
+@bg-transparent-dark: rgba(0, 0, 0, 0.9);
+
+// Body Backgrounds
+@body-bg: @brand-primary;
+@body-bg-inverse: @brand-inverse;
+
+// Text
+@text-color: @base-gray;
+@text-color-muted: @gray-50;
+@text-color-dark: @gray-80;
+@text-color-inverse: @brand-inverse;
+@text-color-brand: @brand-primary;
+
+// Links
+@link-color: @blue;
+@link-decoration: none;
+@link-hover-color: darken(@link-color, 10%);
+@link-hover-decoration: underline;
+@link-focus-decoration: @link-hover-decoration;
+
+// Disabled color:
+@disabled-bg-color: @gray-40;
+@disabled-text-color: @text-color-muted;
+
+// Info
+
+@info-color-alert: @yellow-50;
+@info-color-positive: @teal-50;
+@info-bg-positive: @teal-03;
+@info-color-negative: @brand-accent;
+@info-bg-negative: @coral-10;
+@info-color-neutral: @base-gray;
+
+// Alerts
+
+@alert-bg-color: @gray-10;
+@alert-border-color: @gray-40;
+
+@yellow-10: #ffd682;
+@yellow-30: #ffc74f;
+@yellow-50: #ffab21;
+@yellow-70: #f58d00;
+@yellow-90: #d76a00;
+
+@coral-10: #ffd6d6;
+@coral-30: #ffbabd;
+@coral-50: #ff7276;
+@coral-70: #ec585b;
+@coral-90: #d83d40;
+
+@teal-01: lighten(@teal-50, 51%); // #f3fcfc
+@teal-03: lighten(@teal-50, 49%); // #eaf9fb
+@teal-05: lighten(@teal-10, 5%); // #d3fbff
+@teal-10: #b9f9ff;
+@teal-30: #74d9e2;
+@teal-50: #29b6c2;
+@teal-70: #207e99;
+@teal-90: #156984;
+
+// original colors
+
+@blue: #0202ea;
+
+// New Blues
+
+@deep-blue-50: #000073;
+@deep-blue-70: #000050;
+
+// Neutrals
+@white: #fff;
+@gray-10: lighten(@gray-50, 45%); // #f3f3f3
+@gray-20: lighten(@gray-50, 40%); // #e6e6e6
+@gray-30: lighten(@gray-50, 30%); // #cdcdcd
+@gray-40: lighten(@gray-50, 20%); // #b3b3b3
+@gray-50: #808080;
+@gray-60: #626366; // #676767
+@gray-70: darken(@gray-50, 20%); // #4d4d4d
+@gray-80: darken(@gray-50, 30%); // #343434
+@gray-90: darken(@gray-50, 45%); // #0d0d0d
+@black: #000;
+@gray20:#E3E3E3;
+// Brand
+@brand-primary: @deep-blue-70;
+@brand-secondary: @teal-30;
+@brand-tertiary: @deep-blue-50;
+@brand-accent: @coral-90;
+@brand-inverse: @white;
+
+@base-gray: @gray-60;
+@transparent-light: rgba(255, 255, 255, 0.2);
+
+// Backgrounds
+@bg-base: @white;
+@bg-off-base: @gray-10;
+@bg-neutral: @gray-20;
+@bg-brand: @brand-primary;
+@bg-accent: @brand-accent;
+@bg-highlight: @teal-03;
+@bg-transparent-light: @transparent-light;
+@bg-transparent-dark: rgba(0, 0, 0, 0.9);
+
+// Body Backgrounds
+@body-bg: @brand-primary;
+@body-bg-inverse: @brand-inverse;
+
+// Text
+@text-color: @base-gray;
+@text-color-muted: @gray-50;
+@text-color-dark: @gray-80;
+@text-color-inverse: @brand-inverse;
+@text-color-brand: @brand-primary;
+
+// Links
+@link-color: @blue;
+@link-decoration: none;
+@link-hover-color: darken(@link-color, 10%);
+@link-hover-decoration: underline;
+@link-focus-decoration: @link-hover-decoration;
+
+// Disabled color:
+@disabled-bg-color: @gray-40;
+@disabled-text-color: @text-color-muted;
+
+// Info
+
+@info-color-alert: @yellow-50;
+@info-color-positive: @teal-50;
+@info-bg-positive: @teal-03;
+@info-color-negative: @brand-accent;
+@info-bg-negative: @coral-10;
+@info-color-neutral: @base-gray;
+
+// Alerts
+
+@alert-bg-color: @gray-10;
+@alert-border-color: @gray-40;
+
+// Typography
+// ---------------------------------------------------
+
+@font-family-primary: 'HgSans', 'Arial', 'Helvetica', sans-serif;
+
+@font-size-lg: (@font-size-base * 1.8); // 18px
+@font-size-md: (@font-size-base * 1.6);
+@font-size-base: 10px; // Assumes the browser default, typically `10px`
+@font-size-small: (@font-size-base * 1.4); // 14px
+@font-size-xs: (@font-size-base * 1.2); // 12px
+@font-size-sm-em: 0.875em;
+
+@font-weight-base: 400;
+@font-weight-medium: 500;
+@font-weight-bold: 700;
+@font-weight-heavy: 900;
+
+@line-height-base: 1.5;
+@line-height-tight: 1.25;
+@line-height-loose: 1.66;
+@line-height-em: unit(@line-height-base, em);
+
+// Paragraphs
+
+@paragraph-margin-bottom: 1em;
+
+// Headings
+
+@headings-font-family: @font-family-primary;
+@headings-font-weight: @font-weight-bold;
+@headings-line-height: @line-height-tight;
+@headings-margin-bottom: (@font-size-base / 2);
+
+@font-size-h1: (@font-size-base * 3.6); // 36px
+@font-size-h2: (@font-size-base * 2.4); //  24px
+@font-size-h3: (@font-size-base * 2); // 20px
+@font-size-h4: (@font-size-base * 1.8); // 18px
+@font-size-h5: (@font-size-base * 1.6); // 16px
+@font-size-h6: (@font-size-base * 1.4); // 14px
+
+@font-size-headline: (@font-size-base * 4.8); // 48px
+@font-size-jumbo: (@font-size-base * 6.4); // 64px
+
+// Buttons
+// ---------------------------------------------------
+
+@btn-rounded-radius: @border-radius-round;
+@btn-rounded-weight: @font-weight-bold;
+@btn-font-size: 1em;
+@btn-line-height: @line-height-tight;
+@btn-text-color: @text-color-inverse;
+
+@btn-border-inverse: @brand-inverse;
+@btn-bg-inverse: @brand-inverse;
+
+@btn-primary-bg: @brand-accent;
+@btn-primary-border: @btn-primary-bg;
+@btn-primary-inverse-color: @btn-primary-bg;
+@btn-primary-disabled-bg: @coral-30;
+
+@btn-secondary-bg: @brand-primary;
+@btn-secondary-border: @btn-secondary-bg;
+@btn-secondary-inverse-color: @btn-secondary-bg;
+@btn-secondary-disabled-bg: @brand-tertiary;
+@btn-secondary-disabled-color: @transparent-light;
+
+// Forms
+// ---------------------------------------------------
+
+@label-margin-bottom: 0.5em;
+
+@input-bg: @brand-inverse;
+@input-checked-color: @brand-primary;
+@input-border-radius: @border-radius-sm;
+
+@input-text-color: @text-color;
+@input-text-label-size: @font-size-h2;
+@input-placeholder-color: @gray-40;
+
+@input-check-border-color: @border-color-brand;
+@input-check-mark-color: @brand-inverse;
+
+@input-radio-border-color: @border-color-dark;
+
+@validation-text-color: @info-color-negative;
+@validation-border-color: @info-color-negative;
+@validation-text-size: @font-size-small;
+
+// Borders
+// ---------------------------------------------------
+
+@border-color-base: @gray-20;
+@border-color-dark: @gray-40;
+@border-color-brand: @brand-primary;
+@border-color-inverse: @brand-inverse;
+
+@border-radius-sm: 0.2rem; // 2px
+@border-radius-md: 0.4rem; // 4px
+@border-radius-lg: 0.8rem; // 8px
+@border-radius-round: 4rem;
+
+@border-base: 1px solid @border-color-base;
+@border-dark: 1px solid @border-color-dark;
+@border-inverse: 1px solid @border-color-inverse;
+@border-brand: 1px solid @border-color-brand;
+
+// Drop Shadows
+// ---------------------------------------------------
+
+@drop-shadow-base: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+@drop-shadow-shallow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+@drop-shadow-deep: 0 3px 8px 0 rgba(0, 0, 0, 0.25);
+@top-shadow-shallow: 0 -2px 4px 0 rgba(0, 0, 0, 0.1);
+
+// Trasitions
+// ---------------------------------------------------
+
+@transition-speed-fast: 250ms;
+@transition-speed: @transition-speed-fast * 2;
+@transition-speed-slow: @transition-speed-fast * 3;
+
+// Layout
+// ---------------------------------------------------
+
+@layout-max-width-xs: 43rem; // 688px
+@layout-max-width-sm: 56rem; // 896px
+@layout-max-width: 77rem; // 1232px
+@layout-max-width-lg: 85rem; // 1360px
+
+@nav-bar-height: 2.5rem; // 40px
+@nav-bar-height-lg: 3.5rem; // 56px
+
+// Z-Index
+// ---------------------------------------------------
+// add 100 for new feature/layer, add 10 for layer changes within feature
+@zindex-background: -1;
+@zindex-base: 1;
+@zindex-middle-layer: @zindex-base * 100; // 100
+@zindex-overlay: @zindex-middle-layer + 100; // 200
+@zindex-modal: @zindex-overlay + 100; // 300
+@zindex-modal-drawers: @zindex-modal + 10; // 310
+@zindex-modal-controls: @zindex-modal + 20; // 320
+@zindex-max: @zindex-base * 1000; // 1000
+
+@grid-row-hover: @teal-01;
+@grid-row-referral: @bg-highlight;
+
+@provider-img-width: 6rem; // 60px
+@provider-img-height: 8rem; // 80px
+@provider-img-width-lg: 5.625rem; // 90px
