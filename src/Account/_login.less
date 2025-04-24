@@ -1,40 +1,44 @@
 #main-login-id{
-    
-    .title-name{
+    .title-section{
         position: relative;
-        display: inline-flex;
-        align-items: center;
         height: 100%;
         width: 100%;
-        flex-direction: column;
-        .title-l1{
+        .text-primary{
             font-size: 24px;
             font-weight: 700;
             color: wheat;
         }
     }
-    .username-section{
+    .text-center{
+        display: inline-flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ul-section{
         height: 30%;
         position: relative;
-        top: 8rem;
-        .user-name{
+        bottom: 15px;
+        .ul-name{
             font-size: 18px;
             font-weight: 400;
             font-family: cursive;
-        }
-        .user-ip{ 
             position: relative;
-            left: 10px;
-            width: 50%;
-            background-color: transparent;
-            border: 0px;
-            //outline: none;
-            -webkit-box-shadow: none;
-            -moz-box-shadow: none;
-            box-shadow: none;
-            //width:5px;
-            color:white;
-            cursor:default;
+            bottom: 10px;
         }
+    }
+    .username{
+        top: 8rem;
+    }
+    .password{
+        top: 10rem;
+    }
+    .ul-button{
+        position: relative;
+        height: 30%;
+        top: 14rem;
+    }
+    .ul-btn-center{
+        display: flex;
+        justify-content: space-around;
     }
 }
