@@ -1,19 +1,39 @@
- import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import './_input.less';
+import PropTypes from 'prop-types';
+import _ from 'lodash';
+// import Validation from '../ValidateText.js';
 
- const Input = () =>{
-    const [inputValue, setInputValue] = useState(null);
+const Input = (props) =>{
+    const {
+        inputType
+      } = props;
 
-    const OnChangeValue = (event, changevalue) => {
+    const [inputTextType, setInputTextType] = useState('text');
+    
+    const OnChangeValue = (event) => {
         event.preventDefault();
-        setInputValue(changevalue);
+        var changeValue = event.target.value;
+        props.errorMessage(changeValue);
     };
+
+    useEffect(()=>{
+        setInputTextType(inputType);
+    },[inputType]);
 
     return (
         <div id='input-id' className='input-main'>
-            <input type='text' className='ip-section' onChange={(event, value)=>OnChangeValue(event,value)} value={inputValue} />
+            <input type={inputTextType} className='ip-section' onChange={(event, value)=>OnChangeValue(event,value)} />
         </div>
     )
- };
+};
 
- export default Input;
+Input.propTypes = {
+    inputType: PropTypes.string
+};
+
+Input.defaultProps = {
+    inputType: 'text'
+};
+
+export default Input;
