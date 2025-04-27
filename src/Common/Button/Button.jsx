@@ -4,7 +4,7 @@ import './_button.less';
 const Button = (props) => {
     const onClickButton = (event) => {
         event.preventDefault();
-        props.onClick();
+        props.onClick(event);
     };
 
     return (

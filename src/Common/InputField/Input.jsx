@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import './_input.less';
 import PropTypes from 'prop-types';
-import _ from 'lodash';
+// import _ from 'lodash';
 // import Validation from '../ValidateText.js';
 
 const Input = (props) =>{
@@ -14,7 +14,7 @@ const Input = (props) =>{
     const OnChangeValue = (event) => {
         event.preventDefault();
         var changeValue = event.target.value;
-        props.errorMessage(changeValue);
+        props.onInputChange(changeValue);
     };
 
     useEffect(()=>{
